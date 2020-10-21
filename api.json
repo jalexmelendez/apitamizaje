@@ -1,5 +1,5 @@
-{
+[
 
-{"question": "hello", "function":"alert('hello')"}
+{"question": "hello", "function":"alert('hello')"},
 
-}
+]
