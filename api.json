@@ -1,4 +1,4 @@
-data = {
+{
 
 {"question": "hello", "function":"alert('hello')"}
 
