@@ -3,19 +3,63 @@
     {"question": "", "function": ""},
      {
    "A": "agg()",
-   "B": "¿Eres arrogante?"
+   "B": "agg()",
+   "C": "¿Eres arrogante?"
  },
  {
    "A": "substanceab()",
-   "B": "¿Has tenido dificultades por que consumes drogas o bebidas alcohólicas en la escuela?"
+   "B": "substanceab()",
+   "C": "¿Has tenido dificultades por que consumes drogas o bebidas alcohólicas en la escuela?"
  },
  {
-   "A": "friends()",
-   "B": "¿Se aburren tus amigos en las fiestas donde no sirven bebidas alcohólicas?"
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Se aburren tus amigos en las fiestas donde no sirven bebidas alcohólicas?"
  },
  {
-   "A": "family()",
-   "B": "¿Discuten demasiado tus padres o tutores?"
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Discuten demasiado tus padres o tutores?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te cansas con frecuencia?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te asustas con facilidad?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Tienes menos energía de la que crees que deberías tener?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te sientes frustrado(a) con facilidad?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Amenazas a otros con hacerles daño?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te sientes solo(a) la mayor parte del tiempo?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Dices groserías o vulgaridades?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Escuchas cuidadosamente cuando alguien te habla?"
  }
   ]
 }
