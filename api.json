@@ -1,12 +1,7 @@
 { 
   "data": [
     {"question": "", "function": ""},
-     {
-   "A": "agg()",
-   "B": "agg()",
-   "C": "¿Eres arrogante?"
- },
- {
+      {
    "A": "substanceab()",
    "B": "substanceab()",
    "C": "¿Has tenido dificultades por que consumes drogas o bebidas alcohólicas en la escuela?"
@@ -60,6 +55,351 @@
    "A": "edu()",
    "B": "edu()",
    "C": "¿Escuchas cuidadosamente cuando alguien te habla?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Son tus amigos del agrado de tus padres o tutores?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Se niegan tus padres o tutores a hablarte cuando se enfadan contigo?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Actúas impulsivamente y sin pensar en las consecuencias que tendrán tus actos?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has tenido algún trabajo eventual con sueldo?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Te has hecho daño o le has hecho daño a otra persona accidentalmente estando bajo el efecto del alcohol o de drogas?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Tienes buena ortografía?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Tienes amigos que causan daño o destrucción intencionalmente?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "La mayoría de las veces, ¿saben tus padres o tutores dónde estás y lo que estás haciendo?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Sueles perderte actividades o acontecimientos por que has gastado demasiado dinero en drogas o bebidas alcohólicas?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Participas en muchas actividades en compañía de tus padres o tutores?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te sientes nervioso(a) la mayor parte del tiempo?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Has robado alguna vez?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Has sentido que eres adicto(a) al alcohol o las drogas?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Sabes leer bien?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has estado ausente o llegado tarde a tu trabajo con frecuencia?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Sientes que la gente está en contra tuya?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Llevan tus amigos drogas a las fiestas?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Peleas a menudo o muchas veces?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Tienes mal genio?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Te prestan atención tus padres o tutores cuando les hablas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Has comenzado a consumir mayores cantidades de drogas o alcohol para obtener el efecto que deseas?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Te dice la gente que eres descuidado(a)?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Eres testarudo(a)?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has tenido alguna vez o tienes actualmente un empleo?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Has amenazado alguna vez a alguien con un arma?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Te vas a veces de las fiestas por que no hay en ellas bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Saben realmente tus padres o tutores cómo piensas o te sientes?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Actúas impulsivamente con frecuencia?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Sientes un deseo constante de consumir bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Pierdes el hilo del pensamiento con mucha frecuencia?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Tienes dificultades para concentrarte?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has tenido alguna vez un empleo con sueldo que haya durado por lo menos un mes?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Discutes frecuentemente con tus padres o tutores, levantando la voz y gritando?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Has tenido un accidente automovilístico estando bajo el efecto del alcohol o de drogas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Olvidas lo que haces cuando bebes o te drogas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "El mes pasado, ¿manejaste un automóvil estando borracho(a) o drogado(a)?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Levantas la voz más que los demás muchachos de tu edad?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Has ocasionado daños a la propiedad ajena intencionalmente?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has dejado un empleo sencillamente por que no te interesaban las consecuencias de dejarlo?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿A tus padres o tutores les gusta hablar y estar contigo?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Has pasado alguna noche fuera de tu casa sin que tus padres o tutores supieran donde estabas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿El uso de alcohol o drogas te produce cambios repentinos de humor, como pasar de estar contento (a) a estar triste, o viceversa?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te sientes triste la mayor parte del tiempo?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Pierdes días de clase o llegas tarde a la escuela por haber consumido bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Te han dicho alguna vez tus familiares o amigos que debes reducir el uso de bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Discutes seriamente con tus amigos o familiares por el uso que haces de bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Molestas mucho a tus amigos?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Tienes dificultades para dormir?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Tienes dificultades para hacer trabajos escritos?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Las bebidas alcohólicas o las drogas te han inducido a hacer algo que normalmente no harías, como desobedecer alguna regla o ley, o la hora de llegar a casa, o a tener relaciones sexuales con alguien?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Sientes que a veces pierdes el control de ti mismo(a) y terminas peleando?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Faltaste a la escuela sin autorización el mes pasado?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Tienes dificultades en tus relaciones con alguno de tus amigos debido a las bebidas alcohólicas o drogas que consumes?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Tienes dificultades en seguir instrucciones?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Tienes amigos que han golpeado o amenazado a alguien sin razón?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "substanceab()",
+   "C": "¿Has sentido que no puedes controlar el deseo de tomar bebidas alcohólicas o drogas?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Tienes buena memoria?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Tienen tus padres o tutores una idea relativamente buena de lo que te interesa?"
+ },
+ {
+   "A": "fam()",
+   "B": "fam()",
+   "C": "¿Están tus padres o tutores de acuerdo en cuanto a la forma en que te deben manejar?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Se te hace difícil hacer planes u organizar tus actividades?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Faltan tus amigos a la escuela sin autorización con mucha frecuencia?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Te hace la escuela sentirte estúpido(a) a veces?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Sientes deseos de llorar frecuentemente?"
+ },
+ {
+   "A": "min()",
+   "B": "min()",
+   "C": "¿Te da miedo estar con la gente?"
+ },
+ {
+   "A": "fri()",
+   "B": "fri()",
+   "C": "¿Tienes amigos que han robado?"
+ },
+ {
+   "A": "lab()",
+   "B": "lab()",
+   "C": "¿Has reprobado algún año en la escuela?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Es difícil la escuela para ti?"
+ },
+ {
+   "A": "edu()",
+   "B": "edu()",
+   "C": "¿Eres una persona nerviosa, de las que no pueden estar sentadas mucho tiempo?"
+ },
+ {
+   "A": "agg()",
+   "B": "agg()",
+   "C": "¿Gritas mucho?"
  }
   ]
 }
