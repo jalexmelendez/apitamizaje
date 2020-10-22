@@ -1,5 +1,6 @@
 { 
   "data": [
+    {"question": "", "function": ""},
     {"question": "¿Eres arrogante?", "function":""},
     {"question": "", "function":""}
   ]
