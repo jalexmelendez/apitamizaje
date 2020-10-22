@@ -1,7 +1,21 @@
 { 
   "data": [
     {"question": "", "function": ""},
-    {"question": "¿Eres arrogante?", "function":""},
-    {"question": "", "function":""}
+     {
+   "A": "aggr()",
+   "B": "¿Eres arrogante?"
+ },
+ {
+   "A": "substanceab()",
+   "B": "¿Has tenido dificultades por que consumes drogas o bebidas alcohólicas en la escuela?"
+ },
+ {
+   "A": "friends()",
+   "B": "¿Se aburren tus amigos en las fiestas donde no sirven bebidas alcohólicas?"
+ },
+ {
+   "A": "family()",
+   "B": "¿Discuten demasiado tus padres o tutores?"
+ }
   ]
 }
