@@ -7,42 +7,42 @@
 {
 "place": { "name": "ejem2", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.49,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem3", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem4", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem5", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem6", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem7", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
 "place": { "name": "ejem8", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"www.google.com"},
 "disc":{"description": "descdelcupon","disscount":"10%"},
-"ammount": 129.00,
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
   }]
