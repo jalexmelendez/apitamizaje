@@ -1,7 +1,7 @@
 [{
 "place": { "name": "NOMBRE DEL ESTABLECIMIENTO", "image_url":"https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/06/03172655/default_tile_logo_mcd_red.png", "website":"SITIO WEB"},
 "disc":{"description": "descripcion del cupon","disscount":" descuento 10%"},
-"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}],
+"ammount": {"total":129.50,"subtotal":150,"items":[{"name":"cafe","price":50.00,"qty":2},{"name":"pan","price":50,"qty":1}]},
 "date": "1/1/2020"
 },
 {
