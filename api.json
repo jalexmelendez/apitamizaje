@@ -2,22 +2,22 @@
   "data": [
     {"question": "", "function": ""},
       {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Has tenido dificultades por que consumes drogas o bebidas alcohólicas en la escuela?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Se aburren tus amigos en las fiestas donde no sirven bebidas alcohólicas?"
  },
  {
-   "A": "fam()",
+   "A": "fam(1, false)",
    "B": "fam()",
    "C": "¿Discuten demasiado tus padres o tutores?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Te cansas con frecuencia?"
  },
