@@ -22,47 +22,47 @@
    "C": "¿Te cansas con frecuencia?"
  },
  {
-   "A": "min()",
+   "A": "min(1, true)",
    "B": "min()",
    "C": "¿Te asustas con facilidad?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Tienes menos energía de la que crees que deberías tener?"
  },
  {
-   "A": "min()",
-   "B": "min()",
+   "A": "edu(1, false)",
+   "B": "edu()",
    "C": "¿Te sientes frustrado(a) con facilidad?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Amenazas a otros con hacerles daño?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Te sientes solo(a) la mayor parte del tiempo?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Dices groserías o vulgaridades?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Escuchas cuidadosamente cuando alguien te habla?"
  },
  {
    "A": "fri()",
-   "B": "fri()",
+   "B": "fri(1, true)",
    "C": "¿Son tus amigos del agrado de tus padres o tutores?"
  },
  {
-   "A": "fam()",
+   "A": "fam(1, false)",
    "B": "fam()",
    "C": "¿Se niegan tus padres o tutores a hablarte cuando se enfadan contigo?"
  },
