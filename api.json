@@ -67,337 +67,337 @@
    "C": "¿Se niegan tus padres o tutores a hablarte cuando se enfadan contigo?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Actúas impulsivamente y sin pensar en las consecuencias que tendrán tus actos?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has tenido algún trabajo eventual con sueldo?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Te has hecho daño o le has hecho daño a otra persona accidentalmente estando bajo el efecto del alcohol o de drogas?"
  },
  {
    "A": "edu()",
-   "B": "edu()",
+   "B": "edu(1, false)",
    "C": "¿Tienes buena ortografía?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Tienes amigos que causan daño o destrucción intencionalmente?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "La mayoría de las veces, ¿saben tus padres o tutores dónde estás y lo que estás haciendo?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Sueles perderte actividades o acontecimientos por que has gastado demasiado dinero en drogas o bebidas alcohólicas?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿Participas en muchas actividades en compañía de tus padres o tutores?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Te sientes nervioso(a) la mayor parte del tiempo?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, true)",
    "B": "agg()",
    "C": "¿Has robado alguna vez?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Has sentido que eres adicto(a) al alcohol o las drogas?"
  },
  {
    "A": "edu()",
-   "B": "edu()",
+   "B": "edu(1, true)",
    "C": "¿Sabes leer bien?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has estado ausente o llegado tarde a tu trabajo con frecuencia?"
  },
  {
-   "A": "min()",
+   "A": "min(1, true)",
    "B": "min()",
    "C": "¿Sientes que la gente está en contra tuya?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Llevan tus amigos drogas a las fiestas?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Peleas a menudo o muchas veces?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Tienes mal genio?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿Te prestan atención tus padres o tutores cuando les hablas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Has comenzado a consumir mayores cantidades de drogas o alcohol para obtener el efecto que deseas?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Te dice la gente que eres descuidado(a)?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Eres testarudo(a)?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has tenido alguna vez o tienes actualmente un empleo?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Has amenazado alguna vez a alguien con un arma?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Te vas a veces de las fiestas por que no hay en ellas bebidas alcohólicas o drogas?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿Saben realmente tus padres o tutores cómo piensas o te sientes?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Actúas impulsivamente con frecuencia?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Sientes un deseo constante de consumir bebidas alcohólicas o drogas?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, true)",
    "B": "edu()",
    "C": "¿Pierdes el hilo del pensamiento con mucha frecuencia?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Tienes dificultades para concentrarte?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has tenido alguna vez un empleo con sueldo que haya durado por lo menos un mes?"
  },
  {
-   "A": "fam()",
+   "A": "fam(1, true)",
    "B": "fam()",
    "C": "¿Discutes frecuentemente con tus padres o tutores, levantando la voz y gritando?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Has tenido un accidente automovilístico estando bajo el efecto del alcohol o de drogas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Olvidas lo que haces cuando bebes o te drogas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "El mes pasado, ¿manejaste un automóvil estando borracho(a) o drogado(a)?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Levantas la voz más que los demás muchachos de tu edad?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, true)",
    "B": "agg()",
    "C": "¿Has ocasionado daños a la propiedad ajena intencionalmente?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has dejado un empleo sencillamente por que no te interesaban las consecuencias de dejarlo?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿A tus padres o tutores les gusta hablar y estar contigo?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Has pasado alguna noche fuera de tu casa sin que tus padres o tutores supieran donde estabas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿El uso de alcohol o drogas te produce cambios repentinos de humor, como pasar de estar contento (a) a estar triste, o viceversa?"
  },
  {
-   "A": "min()",
+   "A": "min(1, true)",
    "B": "min()",
    "C": "¿Te sientes triste la mayor parte del tiempo?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Pierdes días de clase o llegas tarde a la escuela por haber consumido bebidas alcohólicas o drogas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Te han dicho alguna vez tus familiares o amigos que debes reducir el uso de bebidas alcohólicas o drogas?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Discutes seriamente con tus amigos o familiares por el uso que haces de bebidas alcohólicas o drogas?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Molestas mucho a tus amigos?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Tienes dificultades para dormir?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Tienes dificultades para hacer trabajos escritos?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Las bebidas alcohólicas o las drogas te han inducido a hacer algo que normalmente no harías, como desobedecer alguna regla o ley, o la hora de llegar a casa, o a tener relaciones sexuales con alguien?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Sientes que a veces pierdes el control de ti mismo(a) y terminas peleando?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Faltaste a la escuela sin autorización el mes pasado?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Tienes dificultades en tus relaciones con alguno de tus amigos debido a las bebidas alcohólicas o drogas que consumes?"
  },
  {
-   "A": "min()",
+   "A": "min(1, false)",
    "B": "min()",
    "C": "¿Tienes dificultades en seguir instrucciones?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Tienes amigos que han golpeado o amenazado a alguien sin razón?"
  },
  {
-   "A": "substanceab()",
+   "A": "substanceab(1, true)",
    "B": "substanceab()",
    "C": "¿Has sentido que no puedes controlar el deseo de tomar bebidas alcohólicas o drogas?"
  },
  {
    "A": "edu()",
-   "B": "edu()",
+   "B": "edu(1, true)",
    "C": "¿Tienes buena memoria?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿Tienen tus padres o tutores una idea relativamente buena de lo que te interesa?"
  },
  {
    "A": "fam()",
-   "B": "fam()",
+   "B": "fam(1, true)",
    "C": "¿Están tus padres o tutores de acuerdo en cuanto a la forma en que te deben manejar?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, true)",
    "B": "edu()",
    "C": "¿Se te hace difícil hacer planes u organizar tus actividades?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Faltan tus amigos a la escuela sin autorización con mucha frecuencia?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Te hace la escuela sentirte estúpido(a) a veces?"
  },
  {
-   "A": "min()",
+   "A": "min(1, true)",
    "B": "min()",
    "C": "¿Sientes deseos de llorar frecuentemente?"
  },
  {
-   "A": "min()",
+   "A": "min(1, true)",
    "B": "min()",
    "C": "¿Te da miedo estar con la gente?"
  },
  {
-   "A": "fri()",
+   "A": "fri(1, true)",
    "B": "fri()",
    "C": "¿Tienes amigos que han robado?"
  },
  {
-   "A": "lab()",
+   "A": "lab(1, false)",
    "B": "lab()",
    "C": "¿Has reprobado algún año en la escuela?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, false)",
    "B": "edu()",
    "C": "¿Es difícil la escuela para ti?"
  },
  {
-   "A": "edu()",
+   "A": "edu(1, true)",
    "B": "edu()",
    "C": "¿Eres una persona nerviosa, de las que no pueden estar sentadas mucho tiempo?"
  },
  {
-   "A": "agg()",
+   "A": "agg(1, false)",
    "B": "agg()",
    "C": "¿Gritas mucho?"
  }
