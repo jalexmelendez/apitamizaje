@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+        <!-- Babel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA==" crossorigin="anonymous"></script>
+
+        <!--Test JS-->
+        <script src="apptest.js"></script>
+    </head>
+    <body>
+        <div id="app_main">
+            <div id="description" class="uk-container" style="background-color: #eee;margin-bottom: 1%;margin-top: 1%;padding-top: 15px;padding-bottom: 15px;">
+                <ul uk-accordion>
+                    <li id="collapse" class="uk-open">
+                        <a class="uk-accordion-title" href="#">INSTRUCCIONES</a>
+                        <div class="uk-accordion-content">
+                            <p style="margin-top:5%; margin-bottom: 5%;">
+                                El propósito de estas preguntas es ayudarnos a conocer la mejor forma en la cual podemos ayudarte.					
+                                Por esto, trata de contestar las preguntas con franqueza.
+                                Esto no es un examen, no hay respuestas correctas o incorrectas, pero por favor trabaja con cuidado.
+                                Todas las respuestas son confidenciales.				
+                                Contesta todas las preguntas.
+                                Si alguna de ellas no aplica exactamente para ti, escoge la respuesta que					
+                                más se acerque a la verdad.
+                                Es posible que encuentres la misma pregunta, o preguntas semejantes, más de una vez.
+                                Contéstalas cada vez que aparezcan en el cuestionario.
+                                Por favor, da clic sobre tu respuesta, al responder cada pregunta no podrás cambiar tu reactivo.
+                                Si no comprendes alguna palabra, pide ayuda a la persona encargada.
+                                ¡GRACIAS!			
+                                </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="interface" class="uk-container">
+                <progress id="js-progressbar" class="uk-progress" value="" max="100"></progress>
+            <form method="POST" name="cuestionario_tamizaje">
+
+                <div class="uk-card uk-card-default uk-card-body uk-width-1-1" id="datos_encuestado">
+                    <h3 class="uk-card-title">Introduce tus datos</h3>
+                    <div class="uk-grid-small" uk-grid style="margin-bottom: 15px;">
+                        <div class="uk-width-1-1">
+                            <input id="iname" class="uk-input" type="text" placeholder="Nombre completo">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input id="iprepa" class="uk-input" type="text" placeholder="Nombre de preparatoria">
+                        </div>
+                        <div class="uk-width-1-4@s">
+                            <input id="iubi" class="uk-input" type="text" placeholder="Colonia o ubicacion de escuela">
+                        </div>
+                        <div class="uk-width-1-4@s">
+                            <input id="ifol" class="uk-input" type="text" placeholder="Folio de cuestionario">
+                        </div>
+                        <div class="uk-width-1-4@s">
+                            <input id="iedad" class="uk-input" type="text" placeholder="Edad">
+                        </div>
+                        <div class="uk-width-1-4@s">
+                            <select id="igen" class="uk-select">
+                                <option value="M">Masculino</option>
+                                <option value="F">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input id="instit" class="uk-input" type="text" placeholder="Institución a la que deseas entrar">
+                        </div>
+                    </div>
+                    <button onclick="capture_one()" class="uk-button uk-button-ptimary" type="button">Iniciar cuestionario</button>
+                </div>
+                
+                <div id="question_card" class="uk-card uk-card-default uk-card-body .uk-width-1-1">
+                    <h3 class="uk-card-title" id="question">¿Eres arrogante?</h3>
+                    <ul class="uk-iconnav">
+                        <li style="margin-right: 20px;"><a id="dynamic_fx" uk-icon="icon: check" title="Si" onclick="agg(1, false)">Si &nbsp;</a></li>
+                        <li><a id="dynamic_fy" uk-icon="icon: close" title="No" onclick="agg()">No &nbsp;</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <div id="results_disp" class="uk-button-group" style="margin-top: 25px; margin-bottom: 25px;">
+                        <button id="finish" class="uk-button uk-button-danger" type="button" onclick="send_data()">Enviar resultados</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+        <!-- React application -->
+        <script type="text/babel">
+        // render engine
+        function results() {
+            let data = JSON.parse(sessionStorage.getItem('personal_data'));
+            const target = document.getElementById('results_disp');
+            ReactDOM.render(
+                <ResultsContainer data={data} />, 
+                target
+            );
+            }
+
+        class ResultsContainer extends React.Component {
+            render() {
+                return(
+                    <div>
+                    <article className={"uk-article"}>
+
+                    <h1 className={"uk-article-title"}><a className={"uk-link-reset"} href="">Resultados tamizaje</a></h1>
+
+                    <p className={"uk-article-meta"}>Nota: estos son los resultados de esta prueba, en producción no se mostrarán los resultados a los encuestados, estos resultados son mostrados con la finalidad de probar la fiabilidad de la aplicación de tamizaje.</p>
+
+                    <p className={"uk-text-lead"}>Nombre del encuestado: {this.props.data['name']}.</p>
+
+                    <p>Procedencia: {this.props.data['proc']}</p>
+                    <p>ubicacion: {this.props.data['ubicacion']}</p>
+                    <p>Folio: {this.props.data['folio']}</p>
+                    <p>Edad: {this.props.data['edad']}</p>
+                    <p>Genero: {this.props.data['genero']}</p>
+                    <RedFlagsData />
+                    <p></p>
+
+                    <div className={"uk-grid-small uk-child-width-auto"} uk-grid>
+                        <div>
+                            <a className={"uk-button uk-button-text"} href="">Reiniciar aplicación</a>
+                        </div>
+                    </div>
+
+                    </article>
+                </div>
+                )
+            }
+        }
+
+        class RedFlagsData extends React.Component {
+            render() {
+                return(
+                    <table className={"uk-table"}>
+                        <caption>Resultados del test de tamizaje</caption>
+                        <thead>
+                            <tr>
+                                <th>Dato a evaluar</th>
+                                <th>Resultado</th>
+                                <th>Riesgo</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td>No. pregunta con red flags:</td>
+                                <td>{redFlagsRisk = true ? "Riesgo de consumo" : "No riesgo"}</td>
+                                <td>Total red flags: {red_flags}</td>
+                            </tr>
+                        </tfoot>
+                        <ResultRow />
+                    </table>
+                )
+            }
+        }
+
+        class ResultRow extends React.Component {
+            render() {
+                return(
+                    <tbody>
+                        <tr>
+                            <td>Abuso de substancias</td>
+                            <td>{sub_abuse}</td>
+                            <td>{sub_abuse_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Salud mental</td>
+                            <td>{mind}</td>
+                            <td>{mind_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Relaciones familiares</td>
+                            <td>{family}</td>
+                            <td>{fam_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Relaciones con amigos</td>
+                            <td>{friends}</td>
+                            <td>{fri_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Nivel educativo</td>
+                            <td>{education}</td>
+                            <td>{edu_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Interes laboral</td>
+                            <td>{labour}</td>
+                            <td>{labour_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                        <tr>
+                            <td>Conducta agresiva/delictiva</td>
+                            <td>{aggr}</td>
+                            <td>{agg_risk = true ? "Riesgo":"Sin riesgo"}</td>
+                        </tr>
+                    </tbody>
+                )
+            }
+        }
+        </script>
+        <!-- React JS -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    </body>
+</html>
