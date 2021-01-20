@@ -304,5 +304,14 @@ function processData() {
     }
     red_flags = redflagsarr.length;
     results();
+    postApiReq();
+}
+
+function postApiReq() {
+    fetch('http://alexmelendez.pythonanywhere.com/', {method: 'GET'})
+    .then(function(response){
+        return response.json();
+    })
+    .then(console.log(response))
 }
 
