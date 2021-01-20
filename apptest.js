@@ -308,7 +308,7 @@ function processData() {
 }
 
 function postApiReq() {
-    fetch('http://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"user": "user", "like": true})})
+    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"user": "user", "like": true})})
     .then(function(response){
         return response.json();
     })
