@@ -320,7 +320,7 @@ function postApiReq() {
         "total_flags":red_flags,
         "risk":redFlagsRisk
     };
-    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"data": sessionStorage.getItem('personal_data'), "flags": rflagsData})})
+    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"data": JSON.parse(sessionStorage.getItem('personal_data')), "flags": rflagsData})})
     /*.then(function(response){
         return response.json();
     })*/
