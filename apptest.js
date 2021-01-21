@@ -308,7 +308,19 @@ function processData() {
 }
 
 function postApiReq() {
-    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"user": "user", "like": true})})
+    let rflagsData = {
+        "redflags": redflagsarr,
+        "sub_abuse":sub_abuse_risk,
+        "mind": mind_risk,
+        "family": fam_risk,
+        "friends": fri_risk,
+        "education": edu_risk,
+        "labour": labour_risk,
+        "aggr": agg_risk,
+        "total_flags":red_flags,
+        "risk":redFlagsRisk
+    };
+    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"data": sessionStorage.getItem('personal_json'), "flags": rflagsData, "redflagsArray": redflagsarr})})
     /*.then(function(response){
         return response.json();
     })*/
