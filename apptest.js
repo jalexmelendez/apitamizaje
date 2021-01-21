@@ -303,7 +303,7 @@ function processData() {
         redFlagsRisk = true;
     }
     red_flags = redflagsarr.length;
-    results();
+    //results();
     postApiReq();
 }
 
@@ -320,10 +320,15 @@ function postApiReq() {
         "total_flags":red_flags,
         "risk":redFlagsRisk
     };
-    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"data": sessionStorage.getItem('personal_json'), "flags": rflagsData, "redflagsArray": redflagsarr})})
+    fetch('https://alexmelendez.pythonanywhere.com/', {method: 'POST', body: JSON.stringify({"data": sessionStorage.getItem('personal_json'), "flags": rflagsData})})
     /*.then(function(response){
         return response.json();
     })*/
-    .then(console.log('ok'))
+    .then(console.log('ok'));
+    thanksMsj();
 }
 
+function thanksMsj() {
+    alert("Gracias por contestar esta herramienta de evaluación, estamos en contacto contigo para seguir con tu proceso.");
+    window.location.href = "http://www.itchihuahua.edu.mx/"; 
+}
