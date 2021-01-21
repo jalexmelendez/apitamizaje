@@ -330,5 +330,5 @@ function postApiReq() {
 
 function thanksMsj() {
     alert("Gracias por contestar esta herramienta de evaluación, estamos en contacto contigo para seguir con tu proceso.");
-    window.location.href = "http://www.itchihuahua.edu.mx/"; 
+    //window.location.href = "http://www.itchihuahua.edu.mx/"; 
 }
